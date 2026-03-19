@@ -22,7 +22,8 @@ pipeline {
 
         stage('Report') {
             steps {
-                echo 'Testy zakończone'
+                sh 'npm test > report.txt'
+                archiveArtifacts artifacts: 'report.txt', fingerprint: true
             }
         }
     }
