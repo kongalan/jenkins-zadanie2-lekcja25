@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/TWOJ_LOGIN/jenkins-node-demo.git'
+                git 'https://github.com/kongalan/jenkins-zadanie2-lekcja25.git'
             }
         }
 
