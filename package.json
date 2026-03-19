@@ -1,1 +1,11 @@
-
+{
+  "name": "jenkins-node-demo",
+  "version": "1.0.0",
+  "description": "Demo Jenkins pipeline",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Test OK\" && exit 0"
+  },
+  "author": "Konrad",
+  "license": "ISC"
+}
